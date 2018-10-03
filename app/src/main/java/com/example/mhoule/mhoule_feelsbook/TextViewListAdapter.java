@@ -1,12 +1,13 @@
 package com.example.mhoule.mhoule_feelsbook;
 
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.view.LayoutInflater;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -30,8 +31,9 @@ public class TextViewListAdapter<T extends EmotionMessage> extends RecyclerView.
                 @Override
                 public boolean onLongClick(View v) {
                     int position = getAdapterPosition();
-                    EmotionMessage emotionMessage = arrayList.get(position);
-                    Toast.makeText(v.getContext(), emotionMessage.toString(), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(v.getContext(), EditMessageActivity.class);
+                    intent.putExtra("index", position);
+                    v.getContext().startActivity(intent);
                     return true;
                 }
             });

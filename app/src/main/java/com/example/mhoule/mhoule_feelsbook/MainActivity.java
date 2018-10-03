@@ -17,6 +17,7 @@
 
 package com.example.mhoule.mhoule_feelsbook;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -25,10 +26,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.security.cert.Extension;
+
 
 public class MainActivity extends AppCompatActivity {
-    private MessageHolder messageList;
-    private TextViewListAdapter<EmotionMessage> messageArrayAdapter;
+    static public MessageHolder messageList;
+    static public TextViewListAdapter<EmotionMessage> messageArrayAdapter;
     private RecyclerView recyclerView;
     private TextView editText;
 
@@ -138,9 +141,8 @@ public class MainActivity extends AppCompatActivity {
         extraButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO
-                messageList.clear();
-                messageArrayAdapter.notifyDataSetChanged();
+                Intent intent = new Intent(v.getContext(), ExtraActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -9,4 +9,15 @@
     <string name="history">History</string>
     <string name="editText">Comment</string>
     <string name="extra">Extra</string>
+    <string name="editMessageCancelButton">Cancel</string>
+    <string name="editMessageConfirmButton">Confirm</string>
+    <string name="editMessageDeleteButton">Delete</string>
+    <string name="editMessageDate">Date</string>
+    <string name="joyCount">Joy Count:</string>
+    <string name="loveCount">Love Count:</string>
+    <string name="surpriseCount">Surprise Count:</string>
+    <string name="angerCount">Anger Count:</string>
+    <string name="fearCount">Fear Count:</string>
+    <string name="sadnessCount">Sadness Count:</string>
+    <string name="clearAllButton">Clear All</string>
 </resources>
