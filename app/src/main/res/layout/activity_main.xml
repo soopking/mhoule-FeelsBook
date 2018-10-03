@@ -6,113 +6,131 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/editText"
+        android:inputType="none|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="302dp"
-            android:scrollbars="vertical" />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/surpriseButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/editText"
-            android:inputType="none|textPersonName" />
+            android:layout_weight="1"
+            android:text="@string/surprise"
+            tools:layout_editor_absoluteY="367dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/angerButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:text="@string/anger"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </LinearLayout>
 
-            <Button
-                android:id="@+id/loveButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/love"
-                tools:layout_editor_absoluteX="208dp"
-                tools:layout_editor_absoluteY="319dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-            <Button
-                android:id="@+id/joyButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/joy"
-                tools:layout_editor_absoluteX="296dp"
-                tools:layout_editor_absoluteY="319dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/loveButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:text="@string/love"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="319dp" />
 
-            <Button
-                android:id="@+id/surpriseButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/surprise"
-                tools:layout_editor_absoluteY="367dp" />
-
-            <Button
-                android:id="@+id/angerButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/anger"
-                tools:layout_editor_absoluteX="296dp"
-                tools:layout_editor_absoluteY="367dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/joyButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="0dp">
+            android:layout_weight="1"
+            android:text="@string/joy"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="319dp" />
+    </LinearLayout>
 
-            <Button
-                android:id="@+id/sadnessButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/sadness"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="408dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/extraButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
 
-            <Button
-                android:id="@+id/fearButton"
-                style="@android:style/ButtonBar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/fear"
-                tools:layout_editor_absoluteX="88dp"
-                tools:layout_editor_absoluteY="415dp" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/sadnessButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sadness"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <Button
+            android:id="@+id/fearButton"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fear"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="415dp" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/extraButton"
+        style="@android:style/ButtonBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/extra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>

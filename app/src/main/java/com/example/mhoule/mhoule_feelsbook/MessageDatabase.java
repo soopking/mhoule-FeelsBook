@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -17,15 +18,16 @@ import java.util.ArrayList;
 public class MessageDatabase {
     private static final String FILENAME = "messages.sav";
 
-    static public ArrayList<Message> getFromDatabase() {
+    static public ArrayList<EmotionMessage> getFromDatabase(File contextDirPath) {
         try {
-            FileInputStream fis = new FileInputStream(FILENAME);
+            File file = new File(contextDirPath, FILENAME);
+            FileInputStream fis = new FileInputStream(file);
             InputStreamReader isr = new InputStreamReader(fis);
             BufferedReader reader = new BufferedReader(isr);
 
             Gson gson = new Gson();
-            Type typeListMessage = new TypeToken<ArrayList<Message>>(){}.getType();
-            ArrayList<Message> result = gson.fromJson(reader,typeListMessage);
+            Type typeListMessage = new TypeToken<ArrayList<EmotionMessage>>(){}.getType();
+            ArrayList<EmotionMessage> result = gson.fromJson(reader,typeListMessage);
             reader.close();
             isr.close();
             fis.close();
@@ -38,9 +40,10 @@ public class MessageDatabase {
         return new ArrayList<>();
     }
 
-    static public void setDatabase(ArrayList<Message> messageArrayList) {
+    static public void setDatabase(File contextDirPath, ArrayList<EmotionMessage> messageArrayList) {
         try {
-            FileOutputStream fos = new FileOutputStream(FILENAME, false);
+            File file = new File(contextDirPath, FILENAME);
+            FileOutputStream fos = new FileOutputStream(file, false);
             OutputStreamWriter osw = new OutputStreamWriter(fos);
 
             Gson gson = new Gson();

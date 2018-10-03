@@ -1,13 +1,15 @@
 package com.example.mhoule.mhoule_feelsbook;
 
-public abstract class Emotion {
+public class Emotion {
     private String emotion;
 
     public Emotion() {
         this.emotion = getEmotion();
     }
 
-    abstract public String getEmotion();
+    public String getEmotion() {
+        return emotion;
+    };
 
     @Override
     public String toString() {

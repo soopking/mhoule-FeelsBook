@@ -10,7 +10,10 @@ public abstract class Message {
         this.date = date;
     }
 
-    public void setText(String text) {
+    public void setText(String text) throws MessageTooLongException {
+        if (text.length() > 100) {
+            throw new MessageTooLongException();
+        }
         this.text = text;
     }
 
@@ -22,17 +25,21 @@ public abstract class Message {
         return text;
     }
 
-    public Message(String text, Date date) {
+    public Message(String text, Date date) throws MessageTooLongException {
         setText(text);
         setDate(date);
     }
 
-    public Message(String text) {
+    public Message(String text) throws MessageTooLongException {
         setText(text);
         setDate(new Date());
     }
     public Message() {
-        setText("");
+        try {
+            setText("");
+        } catch (MessageTooLongException e) {
+            e.printStackTrace();
+        }
         setDate(new Date());
     }
 
