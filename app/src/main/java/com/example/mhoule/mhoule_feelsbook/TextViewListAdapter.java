@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,17 +19,20 @@ public class TextViewListAdapter<T extends EmotionMessage> extends RecyclerView.
         this.tArrayList = tArrayList;
     }
 
-    static public class TextViewHolder extends RecyclerView.ViewHolder {
+    static public class TextViewHolder<T extends EmotionMessage> extends RecyclerView.ViewHolder {
         public TextView textView;
 
-        public TextViewHolder(TextView itemView) {
+        public TextViewHolder(TextView itemView, final ArrayList<T> arrayList) {
             super(itemView);
             textView = itemView;
             textView.setLongClickable(true);
             textView.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
-                    return false;
+                    int position = getAdapterPosition();
+                    EmotionMessage emotionMessage = arrayList.get(position);
+                    Toast.makeText(v.getContext(), emotionMessage.toString(), Toast.LENGTH_SHORT).show();
+                    return true;
                 }
             });
         }
@@ -39,7 +43,7 @@ public class TextViewListAdapter<T extends EmotionMessage> extends RecyclerView.
     public TextViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         TextView textView = (TextView) LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.message_item, viewGroup, false);
-        TextViewHolder viewHolder = new TextViewHolder(textView);
+        TextViewHolder viewHolder = new TextViewHolder<>(textView, tArrayList);
         return viewHolder;
     }
 
