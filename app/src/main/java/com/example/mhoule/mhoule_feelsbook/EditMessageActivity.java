@@ -133,6 +133,7 @@ public class EditMessageActivity extends AppCompatActivity implements DatePicker
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        tempDate = new Date();
         tempDate.setYear(year-1900);
         tempDate.setMonth(month);
         tempDate.setDate(dayOfMonth);
