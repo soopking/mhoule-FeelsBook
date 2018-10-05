@@ -1,0 +1,182 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c3d32492d302c90eff40280885bd38a2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0a28f0c158bea52f39761ba62516c2a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4545f9852a4c8c7518a913390fbc3f6e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bd276387b05a64687df780bd1da430d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2c71e30d02147d36e963063264cd9dd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/71be239437f4af7c612915f5efd74238/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/db712baaa514d9f482892034ecf0b03f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/85956a6e780475fabb4e90d57408ab5a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ffc952883932dca902f1228e5a169a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/5f1804a51b1561572a4057268079ce00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6485766952b32b387af3162dcc753c84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/65c1ade7c3079e4b46f2b2f8e802c7fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d21a39a951b93de7ead7c5f9627ef75f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c95ccf508f8f1437798c7cf591e0d68c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c97163bc918d0de32f7b6c0010130ade/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f3c360145443a89a16f2ab0ba5f3f5f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/954a8ee2f59b59ae6589908f2577daa2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f53b5ae079eb33909b9ca6a263e7a3e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a14b4168cee6caac7a2336c599dd96e4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7ec9bcc4bd10cd0cf100ebd65ee8052/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/74aa2874c3f910bdb573ba67e5361ebe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/103d35a9aaa8b580781291b183c72964/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f4aefa474f2f947301d6a2eb464bfc11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b00f172b4d2517e36b77fa72d4a87b13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/27116c3da819443f86357c2dd844ebb5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/fce211ddcec74afe7fa8288bde90ee23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/92b6ffede957e4db859de6cd8b5a7964/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4838d39e59cd55dc6527815a1be809b8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac11cf9ea09044c0b87ddbc7837d6936/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9efab6cd7c7cb524898d6bce62c40abc/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.android.support:design:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c3d32492d302c90eff40280885bd38a2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c3d32492d302c90eff40280885bd38a2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4545f9852a4c8c7518a913390fbc3f6e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4545f9852a4c8c7518a913390fbc3f6e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a14b4168cee6caac7a2336c599dd96e4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a14b4168cee6caac7a2336c599dd96e4/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.mhoule.mhoule_feelsbook.MainActivity
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:windowSoftInputMode
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:14:13-55
+	android:name
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.mhoule.mhoule_feelsbook.EditMessageActivity
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:21:9-24:20
+	android:windowSoftInputMode
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:23:13-52
+	android:name
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:22:13-48
+activity#com.example.mhoule.mhoule_feelsbook.ExtraActivity
+ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:25:9-27:20
+	android:windowSoftInputMode
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml:25:19-48
+uses-sdk
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c3d32492d302c90eff40280885bd38a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c3d32492d302c90eff40280885bd38a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0a28f0c158bea52f39761ba62516c2a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0a28f0c158bea52f39761ba62516c2a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4545f9852a4c8c7518a913390fbc3f6e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4545f9852a4c8c7518a913390fbc3f6e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bd276387b05a64687df780bd1da430d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bd276387b05a64687df780bd1da430d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2c71e30d02147d36e963063264cd9dd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2c71e30d02147d36e963063264cd9dd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/71be239437f4af7c612915f5efd74238/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/71be239437f4af7c612915f5efd74238/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/db712baaa514d9f482892034ecf0b03f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/db712baaa514d9f482892034ecf0b03f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/85956a6e780475fabb4e90d57408ab5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/85956a6e780475fabb4e90d57408ab5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ffc952883932dca902f1228e5a169a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ffc952883932dca902f1228e5a169a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/5f1804a51b1561572a4057268079ce00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/5f1804a51b1561572a4057268079ce00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6485766952b32b387af3162dcc753c84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6485766952b32b387af3162dcc753c84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/65c1ade7c3079e4b46f2b2f8e802c7fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/65c1ade7c3079e4b46f2b2f8e802c7fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d21a39a951b93de7ead7c5f9627ef75f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d21a39a951b93de7ead7c5f9627ef75f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c95ccf508f8f1437798c7cf591e0d68c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c95ccf508f8f1437798c7cf591e0d68c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c97163bc918d0de32f7b6c0010130ade/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c97163bc918d0de32f7b6c0010130ade/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f3c360145443a89a16f2ab0ba5f3f5f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f3c360145443a89a16f2ab0ba5f3f5f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/954a8ee2f59b59ae6589908f2577daa2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/954a8ee2f59b59ae6589908f2577daa2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f53b5ae079eb33909b9ca6a263e7a3e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f53b5ae079eb33909b9ca6a263e7a3e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/acf3e845beeb680be8dd038f93761d7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a14b4168cee6caac7a2336c599dd96e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a14b4168cee6caac7a2336c599dd96e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7ec9bcc4bd10cd0cf100ebd65ee8052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7ec9bcc4bd10cd0cf100ebd65ee8052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/74aa2874c3f910bdb573ba67e5361ebe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/74aa2874c3f910bdb573ba67e5361ebe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/103d35a9aaa8b580781291b183c72964/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/103d35a9aaa8b580781291b183c72964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f4aefa474f2f947301d6a2eb464bfc11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f4aefa474f2f947301d6a2eb464bfc11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b00f172b4d2517e36b77fa72d4a87b13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b00f172b4d2517e36b77fa72d4a87b13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/27116c3da819443f86357c2dd844ebb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/27116c3da819443f86357c2dd844ebb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/fce211ddcec74afe7fa8288bde90ee23/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/fce211ddcec74afe7fa8288bde90ee23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/92b6ffede957e4db859de6cd8b5a7964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/92b6ffede957e4db859de6cd8b5a7964/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4838d39e59cd55dc6527815a1be809b8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4838d39e59cd55dc6527815a1be809b8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac11cf9ea09044c0b87ddbc7837d6936/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac11cf9ea09044c0b87ddbc7837d6936/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9efab6cd7c7cb524898d6bce62c40abc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/maximehoule/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9efab6cd7c7cb524898d6bce62c40abc/AndroidManifest.xml:20:5-44
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maximehoule/CMPUT301/mhouleFeelsBook/app/src/main/AndroidManifest.xml
