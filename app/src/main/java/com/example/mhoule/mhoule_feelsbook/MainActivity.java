@@ -26,9 +26,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.security.cert.Extension;
-
-
 public class MainActivity extends AppCompatActivity {
     static public MessageHolder messageList;
     static public TextViewListAdapter<EmotionMessage> messageArrayAdapter;

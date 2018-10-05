@@ -26,6 +26,7 @@ public class EditMessageActivity extends AppCompatActivity implements DatePicker
     private EmotionMessage emotionMessage;
 
     private Date date;
+    private Date tempDate;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -132,9 +133,9 @@ public class EditMessageActivity extends AppCompatActivity implements DatePicker
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-        date.setYear(year-1900);
-        date.setMonth(month);
-        date.setDate(dayOfMonth);
+        tempDate.setYear(year-1900);
+        tempDate.setMonth(month);
+        tempDate.setDate(dayOfMonth);
 
         TimePickerDialog timePickerDialog = new TimePickerDialog(EditMessageActivity.this,
                 EditMessageActivity.this,
@@ -144,8 +145,9 @@ public class EditMessageActivity extends AppCompatActivity implements DatePicker
 
     @Override
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-        date.setHours(hourOfDay);
-        date.setMinutes(minute);
+        tempDate.setHours(hourOfDay);
+        tempDate.setMinutes(minute);
+        date = (Date) tempDate.clone();
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.CANADA);
         datePicker.setText(simpleDateFormat.format(date));
